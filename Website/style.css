@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #444;
+  height: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+nav>ul>li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+nav li:hover,nav .active {
+  background-color: #000;
+}
+
+nav a {
+  color: #eee;
+  padding: 0 1.5em;
+  text-decoration: none;
+  line-height: 2em;
+  display: block;
+}
